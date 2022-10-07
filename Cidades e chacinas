@@ -1,0 +1,105 @@
+A análise foi realizada pelo SQL. Foi importada a base em CSV e realizada a seguinte consulta para verificar qual cidade teve o maior número de mortes em chacinas no período analisado: 
+
+
+SELECT count (MortesCivis) AS chacinas, cidade from chacina_rio
+Where MortesCivis >= 3 AND ano >=2018
+Group by Cidade
+Order by chacinas DESC
+
+120	Rio de Janeiro
+43	São Gonçalo
+24	Belford Roxo
+20	Nova Iguaçu
+16	Niterói
+15	Duque de Caxias
+11	Japeri
+11	Itaboraí
+6	Queimados
+4	São João de Meriti
+4	Mesquita
+3	Maricá
+3	Magé
+3	Itaguaí
+1	Seropédica
+1	Nilópolis
+
+
+SELECT cidade, ano, count (MortesCivis) AS chacinas from chacina_rio
+Where MortesCivis >= 3 AND ano >=2018
+Group by cidade, ano
+Order by ano, chacinas DESC 
+
+
+O resultado obtido foi ordenado no Google Sheets pelos parâmetros cidade (A-Z), ano (A-Z) e chacinas (Z-A)
+
+CIDADE | ANO | CHACINAS
+Belford Roxo	2018	8
+Belford Roxo	2019	7
+Belford Roxo	2019	1
+Belford Roxo	2021	6
+Belford Roxo	2022	2
+
+Duque de Caxias	2018	7
+Duque de Caxias	2019	3
+Duque de Caxias	2021	3
+Duque de Caxias	2022	2
+
+Itaboraí	2018	4
+Itaboraí	2019	3
+Itaboraí	2020	1
+Itaboraí	2021	2
+Itaboraí	2022	1
+
+Itaguaí	2018	1
+Itaguaí	2019	1
+Itaguaí	2020	1
+
+Japeri	2018	3
+Japeri	2019	4
+Japeri	2021	1
+Japeri	2022	3
+
+Magé	2020	1
+Magé	2022	2
+
+Maricá	2018	2
+Maricá	2021	1
+
+Mesquita	2018	1
+Mesquita	2021	3
+
+Nilópolis	2021	1
+
+Niterói	2018	3
+Niterói	2019	9
+Niterói	2020	1
+Niterói	2021	1
+Niterói	2022	2
+
+Nova Iguaçu	2018	1
+Nova Iguaçu	2019	8
+Nova Iguaçu	2020	4
+Nova Iguaçu	2021	3
+Nova Iguaçu	2022	4
+
+Queimados	2018	3
+Queimados	2019	1
+Queimados	2020	1
+Queimados	2021	1
+
+Rio de Janeiro	2018	23
+Rio de Janeiro	2019	33
+Rio de Janeiro	2020	25
+Rio de Janeiro	2021	24
+Rio de Janeiro	2022	15
+
+São Gonçalo	2018	8
+São Gonçalo	2019	9
+São Gonçalo	2020	9
+São Gonçalo	2021	13
+São Gonçalo	2022	4
+
+São João de Meriti	2019	1
+São João de Meriti	2021	2
+
+Seropédica	2018	1
