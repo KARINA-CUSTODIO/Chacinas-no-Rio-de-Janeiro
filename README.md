@@ -1,1 +1,5 @@
-
+No dia 5 de junho de 2020 o ministro do STF, Edson Fachin, acolheu pedido do PSB em uma ADPF (Ação de Descumprimento de Preceito Fundamental) e proibiu operações policiais em comunidades no Rio de Janeiro durante a pandemia.
+Mais de um ano depois, os políticos cariocas ainda reclamavam da decisão. No dia 11 de outubro de 2021 o prefeito do Rio, Eduardo Paes, disse em seu Twitter que a decisão do STF "impede as Forças Policiais de exercer o monopólio da força do Estado".
+O Instituto Fogo Cruzado vem desde o ano de 2016 produzindo uma base de dados sobre a violência armada nas regiões metropolitanas do Rio de Janeiro. Os dados coletados da Secretaria de Segurança Pública e de delegacias, compilados por um grupo de pesquisadores. 
+O objetivo é verificar se e como a decisão do STF afetou no número de operações, chacinas, mortos e feridos no Rio de Janeiro. 
+O banco de dados traz as variáveis de local da operação, número de civis mortos e feridos, agentes públicos mortos e feridos, proximidade da ação com escolas, incidência de balas perdidas e feridos e mortos por essas.
