@@ -1,0 +1,5 @@
+Primeiro com relação ao número de idosos mortos em chacina, aplicamos o filtro na coluna G. Selecionamos o filtro por valores, em seguida, aplicamos o valor "1". 
+Já com relação ao número de adolescentes mortos em chacina, aplicamos o filtro na coluna BB . Selecionamos o filtro por valores, em seguida, aplicamos + " 1". 
+Depois selecionar a coluna E, relacionada a data. Após o filtro percebe-se os seguintes dados.
+O número de adolescentes mortos em chacina foi impactado pela ADPF. Houve uma diminuição considerável neste dado, quando comparado com os anos anteriores (2018,2019)
+Por último, com relação ao número de crianças mortas em chacina, o mesmo procedimento foi repetido: aplicamos o filtro na coluna AQ e o filtro por valores. Em seguida selecionamos o valor maior que " 1". 
