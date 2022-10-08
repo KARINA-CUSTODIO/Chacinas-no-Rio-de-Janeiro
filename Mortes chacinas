@@ -9,3 +9,27 @@ Ano	MEDIAN de Mortes Civis	SUM de Mortes Civis
 2021	3	247
 2022	3	152
 Total geral	3	1098
+
+Quantas chacinas ocorreram antes e depois da decisão do STF?
+
+Ao fazer uma nova tabela dinâmicas usando o filtro para selecionar os meses janeiro a maio, a linha para indicar os anos, selecionando a coluna “mortes civis” em valores (resumidos por COUNTA) e aplicar os filtros ano (selecionando 2018 a 2022) e mortes civis (selecionando mais de 3 mortes). É possível ver que novamente 2020 foi o ano com menor número de chacinas nesses meses.
+
+janeiro-maio:
+Ano	COUNT de Mortes Civis
+2018	30
+2019	26
+2020	22
+2021	34
+2022	21
+Total geral	133
+
+A observação se repete quando fazemos a mesma tabela dinâmica, agora filtrando os meses de junho a dezembro (posteriores à decisão).
+
+Junho-dezembro:
+Ano	COUNT de Mortes Civis
+2018	35
+2019	54
+2020	22
+2021	27
+2022	16
+Total geral	154
