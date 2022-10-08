@@ -1,0 +1,9 @@
+Para inserir os dados socioeconômicos das cidades com chacinas foram pesquisadas bases de dados no https://www.data.rio e no https://dados.gov.br/. No entanto, não foram encontrados nenhuma base de dados que contivesse o código do IBGE que permitiria o cruzamento, já que a base do Fogo Cruzado contém esse código.
+
+No site do IGBE não foram encontrados bases de dados, apenas um link que levava ao https://dados.gov.br/, mas no link https://www.ibge.gov.br/cidades-e-estados/rj/rio-de-janeiro.html foi possível exportar os dados socioeconômicos das cidades do Rio de Janeiro em CSV, as primeiras tentativas de clicar “exportar” não deram efeito, mas na terceira tentativa foi possível fazer o download.
+Em seguida, a base foi importada para o Google sheets, foi optado por detectar o separador automaticamente.
+Para cruzar os dados usamos o PROCV, o que fizemos antes da operação foi apenas inserir mais três colunas à direita da coluna de código do IBGE.
+Assim, os dados de “escolarização”, “mortalidade infantil” e “PIB per capita” foram inseridos na tabela do Fogo Cruzado.
+O passo seguinte foi criar uma nova tabela dinâmica para determinar as cidades com chacinas dentro do período analisado. Ao selecionar todos os dados da tabela, ir até o menu do sheets e clicar em inserir, e em seguida em tabela dinâmica, surge um pop up entitulado “criar tabela dinâmica” neste espaço havia a opção de criar a tabela em uma nova página ou em página existente, foi clicado em nova página.
+Foi selecionado a coluna cidades em linha e em valores foi selecionado mortes civis adicionado um filtro com a coluna mortes civis e as mortes menores que 3 foram retiradas, outro filtro do ano foi adicionado, para selecionar apenas os de 2018, até 2022.
+Foi possível inserir o IDH pela tabela dinâmica, mas as colunas de Mortalidade infantil, PIB per capita e escolarização foram inseridos por meio do PROCV.
