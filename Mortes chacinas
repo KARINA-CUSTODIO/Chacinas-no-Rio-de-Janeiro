@@ -1,0 +1,11 @@
+Qual é a mediana das mortes nas chacinas antes e depois da decisão do STF? 
+Para descobrirmos quantos mortos houveram nos anos anteriores as chacinas dividimos as informações da tabela data por meio da função “dividir texto em colunas”, contida em dados, ao definir o separador clicamos em personalizado e inserimos uma barra (/).
+Em seguida fizemos uma tabela dinâmica usando o ano como linha e a coluna “mortes civis” como valores e inserimos a soma e a mediana desses valores.
+Assim, podemos observar que em 2020, ano da decisão do STF, houve uma diminuição em relação ao número de mortes em chacinas nos dois anos anteriores. Em 2020 169 civis morreram, já em 2019 foram 275 mortos e em 2018 255.
+Ano	MEDIAN de Mortes Civis	SUM de Mortes Civis
+2018	4	255
+2019	3	275
+2020	3	169
+2021	3	247
+2022	3	152
+Total geral	3	1098
